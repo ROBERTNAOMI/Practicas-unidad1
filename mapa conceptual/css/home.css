@@ -1,0 +1,78 @@
+/* Estilos para la primera caja (CONCEPTO 1) */
+.caja1{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+.caja1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente del texto */
+    color: aqua; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    border-radius: 7px; /* Bordes redondeados */
+    background-color: #162b4e; /* Color de fondo */
+    border-style: none;  /* Sin estilo de borde */
+    border-color: white; /* Color del borde */
+}
+/* Línea divisoria c2 con grosor sólido */
+.c2{
+    border-left: thick solid #000;/*desplaza el elemento contando desde su borde izquierdo*/
+    height: 15%; /*especifica la altura de un elemento*/
+    left: 50%; /*representa todas las páginas de la izquierda de un documento impreso*/
+    position: absolute;/* especifica cómo un elemento es posicionado en el documento.*/
+}
+/* Caja3 con margen superior, borde grueso sólido y posición absoluta */
+.caja3{
+    margin-top: 6.5%;
+    margin-left: 25%;
+    
+    border: thick solid #000;/*permite definir en una única regla todos los bordes de los elementos seleccionados*/
+    width: 50%;/*stablece el ancho de un elemento mediante un valor numérico*/
+    position: absolute;/* especifica cómo un elemento es posicionado en el documento.*/
+}
+.caja4{
+    margin-top: 6.5%;
+    border-left: thick solid #000;
+    height: 15%;
+    left: 25.5%;
+    position: absolute;
+}
+.caja5{
+    margin-top: 7%;
+    border-left: thick solid #000;
+    height: 15%;
+    left: 76%;
+    position: absolute;
+}
+.caja6{
+    width: 20%;
+    margin-top: 13.5%;
+    margin-left: 15%;
+    margin-right: auto;
+        
+}
+.caja6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #162b4e;
+    border-style: dashed;
+    border-color: white;
+}
+.caja7{
+    width: 20%;
+    margin-top: -3.5%;
+    margin-left: auto;
+    margin-right: 13%;
+        
+}
+.caja7{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #162b4e;
+    border-style: double;
+    border-color: white;
+}
