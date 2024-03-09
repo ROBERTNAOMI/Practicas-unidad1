@@ -1,0 +1,14 @@
+/* Estilo para el cuerpo (body) de la página */
+
+body{
+    /* Establece una imagen de fondo utilizando el archivo "fondo.webp" ubicado en el directorio "../img/". */
+    background-image: url(../img/fondo.webp);
+    display: block; /* Establece el valor de visualización como bloque. */
+    max-width: 100%; /* Establece el ancho máximo del cuerpo al 100% del ancho de su contenedor. */
+}
+/* Estilo para todas las imágenes (img) en la página */
+img{
+
+    display: block; /* Establece el valor de visualización como bloque. */
+    max-width: 100%; /* Establece el ancho máximo de las imágenes al 100% del ancho de su contenedor. */
+}
