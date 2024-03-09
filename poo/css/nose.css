@@ -1,0 +1,39 @@
+/* Estilos para el cuerpo del documento HTML */
+body{
+    background-color: black;
+/* Estilos para los párrafos dentro del cuerpo */
+p{
+    text-align: center; /* Centra el texto */
+    font-family: comic Sans Ms; /* Estilo de fuente Comic Sans MS */
+}
+}
+/* Regla de estilo para la clase colorText */
+.colorText{
+    color: rgb(230, 237, 240);/* Color del texto */
+
+}
+/* Reglas de estilo para los bloques de texto preformateado */
+pre{
+    .colorText{ 
+        color: aliceblue;  /* Color del texto dentro del bloque pre */
+        text-align: center; /* Centra el texto dentro del bloque pre */
+        font-family: comic Sans Ms;/* Estilo de fuente Comic Sans MS para el bloque pre */
+    }
+    text-align: center;
+
+}
+
+/* Estilos adicionales para la clase colorText */
+.colorText{
+    color: aliceblue;  /* Color del texto */
+}
+    /* Estilos para las imágenes en el cuerpo */
+img{
+    width:  100%; /* Ancho del 100% del contenedor */
+    height: 100%; /* Altura del 100% del contenedor */
+    
+}
+pre{
+    text-align: center; /* Centra el texto dentro del bloque pre */
+    font-family: Comic Sans Ms; /* Estilo de fuente Comic Sans MS para el bloque pre */
+}
