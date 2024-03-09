@@ -1,0 +1,47 @@
+/* Estilo para la clase .ColorTransparente */
+.ColorTransparente {
+    width: 420px;  /* Anchura del elemento */
+    background: transparent; /* Fondo transparente por defecto */
+    background: rgba(138, 221, 45, 0); /* Fondo RGBA con color verde transparente */
+  }
+  /* Estilos generales para body y html */
+  body, html {
+      height: 100%; /* Establece la altura al 100% de la ventana */
+      margin: 0; /* Elimina los márgenes predeterminados */
+      padding: 0;  /* Elimina los rellenos predeterminados */
+  }
+  /* Estilos para el contenedor de video */
+  .video-container {
+      position: fixed; /* Posición fija en la ventana */
+      top: 0; /* Alinea en la parte superior de la ventana */
+      left: 0; /* Alinea en el borde izquierdo de la ventana */
+      width: 100%; /* Ocupa el 100% del ancho de la ventana */
+      height: 100%; /* Ocupa el 100% de la altura de la ventana */
+      overflow: hidden;  /* Oculta el desbordamiento de contenido */
+      z-index: -1; /* Coloca el contenedor detrás de otros elementos */
+  }
+  
+  /* Estilos para el video de fondo */
+  #video-background {
+      position: absolute; /* Posición absoluta dentro del contenedor */
+      top: 0; /* Alinea en la parte superior del contenedor */
+      left: 0; /* Alinea en el borde izquierdo del contenedor */
+      width: 100%; /* Ocupa el 100% del ancho del contenedor */
+      height: 100%; /* Ocupa el 100% de la altura del contenedor */
+      object-fit: cover; /* Mantiene la relación de aspecto y cubre completamente el contenedor */
+  }
+  /* Estilos para la clase .row (puede ser un contenedor de contenido) */
+  .row {
+    width: 600px; /* Anchura del elemento */
+    background: transparent; /* Fondo transparente por defecto */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borde sólido con color blanco transparente */
+    backdrop-filter: blur(20px); /* Aplica un desenfoque al fondo */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2); /* Crea una sombra suave alrededor del elemento */
+    color: #fff; /* Color del texto blanco */
+    border-radius: 10px; /* Bordes redondeados de 10 píxeles */
+    padding: 30px 40px; /* Relleno de 30 píxeles arriba y abajo, 40 píxeles a los lados */
+  }
+  /* Estilo para las imágenes */
+  img{
+    border-radius: 50%; /* Establece un borde redondeado del 50%, creando una apariencia circular */
+  }
